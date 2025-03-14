@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Lista de Usuários</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20px;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th {
+            background-color: #007bff;
+            color: white;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+            white-space: nowrap;
+        }
+        th:nth-child(1), td:nth-child(1) { width: 5%; }
+        th:nth-child(2), td:nth-child(2) { width: 35%; }
+        th:nth-child(3), td:nth-child(3) { width: 60%; }
+        tr {
+            page-break-inside: avoid;
+        }
+        table {
+            page-break-before: auto;
+        }
+        table {
+            page-break-after: auto;
+        }
+    </style>
+</head>
+<body>
+<h1>Lista de Usuários</h1>
+<table>
+    <thead>
+    <tr>
+        <th>#</th>
+        <th>Nome</th>
+        <th>Email</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="user : ${users}">
+        <td th:text="${user.id}"></td>
+        <td th:text="${user.name}"></td>
+        <td th:text="${user.email}"></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

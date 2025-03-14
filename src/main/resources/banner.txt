@@ -1,0 +1,19 @@
+ _____                     _           _       __________________
+|_   _|                   (_)         (_)      | ___ \  _  \  ___|
+  | | _ __ ___  _ __  _ __ _ _ __ ___  _ _ __  | |_/ / | | | |_
+  | || '_ ` _ \| '_ \| '__| | '_ ` _ \| | '__| |  __/| | | |  _|
+ _| || | | | | | |_) | |  | | | | | | | | |    | |   | |/ /| |
+ \___/_| |_| |_| .__/|_|  |_|_| |_| |_|_|_|    \_|   |___/ \_|
+               | |
+               |_|
+
+Banner credits to: https://devops.datenkollektiv.de/banner.txt/index.html
+
+${application.title} - ${application.version}
+
+Autor: Wagner Pereira Chequeleiro
+Email: w.chequeleiro@gmail.com
+GitHub: https://github.com/wagnerpch
+
+Powered by Spring Boot ${spring-boot.version}
+
