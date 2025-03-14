@@ -7,7 +7,9 @@ POC: imprimir pdf com Thymeleaf e Flying Saucer
 
 Aplicação backend em Java 21 com Spring Boot.
 
-Essa prova de conceito foi desenvolvida para testar 
+Essa prova de conceito foi desenvolvida para testar Thymeleaf e Flying Saucer como alternativa ao JasperReports.
+
+A solução apresenta um jeito simples e rápido de gerar relatórios em PDF usando templates em html com Thymeleaf.
 
 # Tecnologias utilizadas
 
